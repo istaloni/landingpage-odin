@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header, .hero, .footer {
+    background-color: #1F2937;
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 50px;
+}
+
+
+.links {
+    display: flex;
+    justify-content: flex-start;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+}
+
+li {
+    color: white;
+    text-decoration: none; 
+    list-style: none;
+}
+
+
+
