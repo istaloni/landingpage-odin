@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     margin: 0px;
     padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header, .hero, .footer {
@@ -16,26 +17,74 @@ body {
     justify-content: space-between;
 }
 
-img {
+.imglogo {
+    margin-left: 100px;
     height: 50px;
 }
-
 
 .links {
     display: flex;
     justify-content: flex-start;
+    margin-right: 100px;
 }
 
 ul {
     display: flex;
-    gap: 10px;
+    gap: 50px;
 }
 
-li {
+li, a {
     color: white;
     text-decoration: none; 
     list-style: none;
 }
 
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 300px;
+}
+
+.heroleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+    margin-left: 100px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: #1F2937;
+    
+}
 
 
+.heroright {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: -50px;
+}
+
+.nadine {
+    height: 200px;
+}
