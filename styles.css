@@ -183,5 +183,14 @@ blockquote {
     background-color: #3882F6;
     border-color: #E5E7EB;
     margin-right: 25px;
+}
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    color: #f9faf8;
 }
